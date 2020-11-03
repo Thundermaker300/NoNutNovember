@@ -11,7 +11,7 @@ namespace NoNutNovember
     public class Config : IConfig
     {
         public bool IsEnabled { get; set; } = true;
-        [Description("If set to true, 'NNN' will be added at the end of the server name (invisible), so that players can search for it.")]
+        [Description("If set to true, users with RA ForceClass permission can still set people to SCP-173 (it won't spawn by default).")]
         public bool AllowForce173 { get; set; } = true;
     }
 }
