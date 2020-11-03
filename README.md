@@ -1,5 +1,5 @@
 ## No Nut November
-If the current month is November (automatically checks), SCP-173 will be removed from the game and cannot spawn. Requires Exiled.
+SCP:SL Exiled plugin that removes SCP-173 from a server during the month of November.
 
 ## Config
 | Name            | Type | Default Value | Description                                                                                                       |
