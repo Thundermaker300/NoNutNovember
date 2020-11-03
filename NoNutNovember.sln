@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoNutNovember", "NoNutNovember\NoNutNovember.csproj", "{DFA74E3A-DA08-4A41-AC4D-7C62AC7C3391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA74E3A-DA08-4A41-AC4D-7C62AC7C3391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA74E3A-DA08-4A41-AC4D-7C62AC7C3391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA74E3A-DA08-4A41-AC4D-7C62AC7C3391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA74E3A-DA08-4A41-AC4D-7C62AC7C3391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE85068B-CDC0-4593-98B3-C6DBA97CFC8B}
+	EndGlobalSection
+EndGlobal
