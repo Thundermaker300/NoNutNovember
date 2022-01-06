@@ -1,5 +1,5 @@
 ﻿using Exiled.Events.EventArgs;
-using Exiled.Events.Handlers;
+using Exiled.API.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace NoNutNovember
             ScpRoles.ShuffleList();
             foreach (RoleType r in ScpRoles)
             {
-                if (Exiled.API.Features.Player.List.Where(Ply => Ply.Role == r).Count() < 1)
+                if (Player.List.Where(Ply => Ply.Role == r).Count() < 1)
                 {
                     chosen = r;
                     break;
@@ -34,7 +34,7 @@ namespace NoNutNovember
         {
             if (ev.NewRole == RoleType.Scp173 && DateTime.Now.Month == 11)
             {
-                if (Round.ElapsedTime.TotalSeconds > 3 && NoNutNovember.Singleton.Config.AllowForce173) // Assume that they were forced if it's later than 3 seconds into the game.
+                if (ev.Reason == SpawnReason.ForceClass && NoNutNovember.Singleton.Config.AllowForce173)
                 {
                     return;
                 }
