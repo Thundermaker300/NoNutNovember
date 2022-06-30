@@ -13,10 +13,10 @@ namespace NoNutNovember
     public class NoNutNovember : Plugin<Config>
     {
         public override string Name => "No Nut November";
-        public override string Author => "Thundermaker300";
+        public override string Author => "Thunder";
         public override PluginPriority Priority => PluginPriority.Low;
-        public override Version Version => new Version(1, 0, 2);
-        public override Version RequiredExiledVersion => new Version(4, 2, 2);
+        public override Version Version => new Version(1, 0, 3);
+        public override Version RequiredExiledVersion => new Version(5, 2, 0);
 
         public static NoNutNovember Singleton;
         private EventHandlers Handler;

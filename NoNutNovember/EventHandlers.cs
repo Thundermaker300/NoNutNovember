@@ -20,7 +20,7 @@ namespace NoNutNovember
             ScpRoles.ShuffleList();
             foreach (RoleType r in ScpRoles)
             {
-                if (Player.List.Where(Ply => Ply.Role == r).Count() < 1)
+                if (Player.Get(r).Count() < 1)
                 {
                     chosen = r;
                     break;
